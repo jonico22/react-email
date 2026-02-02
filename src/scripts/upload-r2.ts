@@ -3,6 +3,7 @@ import { render } from "@react-email/render";
 import WelcomeCredentials from "@/emails/WelcomeCredentials"; 
 import RegisterVerify from "@/emails/RegisterVerify";
 import SubscriptionReceipt from "@/emails/SubscriptionReceipt";
+import ResetPassword from "@/emails/ResetPassword";
 // Asegúrate de que la ruta sea correcta
 import * as dotenv from "dotenv";
 
@@ -41,6 +42,7 @@ const templatesToUpload = [
   { name: "welcome", component: WelcomeCredentials() },
   { name: "register-verify", component: RegisterVerify() },
   { name: "subscription-receipt", component: SubscriptionReceipt() },
+  { name: "reset-password", component: ResetPassword() },
   // Agrega aquí más plantillas fácilmente
 ];
 
