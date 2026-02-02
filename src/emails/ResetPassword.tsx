@@ -7,7 +7,7 @@ export default function ResetPassword() {
     <BaseLayout previewText="Instrucciones para restablecer tu contraseña">
       
       <Text className="text-xl font-bold text-[#1e293b]">
-        Hola {"{{first_name}}"},
+        Hola,
       </Text>
 
       <Text className="text-[#475569] text-[16px] leading-7">
